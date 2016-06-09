@@ -1,0 +1,27 @@
+{
+  "name": "fd-cache",
+  "version": "1.0.0",
+  "description": "File descriptor cache for bgz-reader and hash-reader.",
+  "main": "./lib/fd-cache.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "mocha ./test/test-fd-cache.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/PavelNovotny/fd-cache.git"
+  },
+  "keywords": [
+    "hash-reader",
+    "bgz-reader",
+    "fd-cache"
+  ],
+  "author": "Pavel Novotny",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/PavelNovotny/fd-cache/issues"
+  },
+  "homepage": "https://github.com/PavelNovotny/fd-cache#readme"
+}
